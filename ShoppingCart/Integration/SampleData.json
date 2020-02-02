@@ -1,0 +1,121 @@
+{
+  "Products": [
+    {
+      "Id": 1,
+      "Title": "Elma",
+      "Price": 2.75,
+      "CategoryId": 33,
+      "StockQuantity": 157,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg"
+    },
+    {
+      "Id": 2,
+      "Title": "Armut",
+      "Price": 3.50,
+      "CategoryId": 33,
+      "StockQuantity": 12,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Pears.jpg/260px-Pears.jpg"
+    },
+    {
+      "Id": 4,
+      "Title": "Muz",
+      "Price": 3.00,
+      "CategoryId": 33,
+      "StockQuantity": 10,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Banane_Obst.jpg/1280px-Banane_Obst.jpg"
+    },
+    {
+      "Id": 7,
+      "Title": "Ananas",
+      "Price": 12.50,
+      "CategoryId": 33,
+      "StockQuantity": 22,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Pineapple1.JPG/260px-Pineapple1.JPG"
+    },
+    {
+      "Id": 41,
+      "Title": "Havuç",
+      "Price": 4.25,
+      "CategoryId": 35,
+      "StockQuantity": 2,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Carrots_with_stems.jpg/260px-Carrots_with_stems.jpg"
+    },
+    {
+      "Id": 8,
+      "Title": "Patlýcan",
+      "Price": 5.20,
+      "CategoryId": 35,
+      "StockQuantity": 12,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Solanum_melongena_ja02.jpg/260px-Solanum_melongena_ja02.jpg"
+    },
+    {
+      "Id": 13,
+      "Title": "Marul",
+      "Price": 1.50,
+      "CategoryId": 35,
+      "StockQuantity": 212,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Iceberg_lettuce_%28IJssla_krop%29.jpg/260px-Iceberg_lettuce_%28IJssla_krop%29.jpg"
+    },
+    {
+      "Id": 21,
+      "Title": "iPhone",
+      "Price": 3999.99,
+      "CategoryId": 22,
+      "StockQuantity": 12,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/IPhone_11_Pro_Max_Midnight_Green.svg/220px-IPhone_11_Pro_Max_Midnight_Green.svg.png"
+    },
+    {
+      "Id": 15,
+      "Title": "Buzdolabý",
+      "Price": 5999.99,
+      "CategoryId": 22,
+      "StockQuantity": 4,
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Koelkast_open.jpg/315px-Koelkast_open.jpg"
+    }
+  ],
+  "Categories": [
+    {
+      "Id": 7,
+      "Title": "Meyve - Sebze",
+      "ParentCategoryId": 0
+    },
+    {
+      "Id": 33,
+      "Title": "Meyve",
+      "ParentCategoryId": 7
+    },
+    {
+      "Id": 35,
+      "Title": "Sebze",
+      "ParentCategoryId": 7
+    },
+    {
+      "Id": 22,
+      "Title": "Elektronik",
+      "ParentCategoryId": 0
+    }
+  ],
+  "AmountCoupons": [
+    {
+      "Code": "INDIRIM",
+      "MinimumAmount": 300,
+      "DiscountAmount": 30
+    }
+  ],
+  "AmountCampaigns": [
+    {
+      "Id": 5,
+      "CategoryId": 7,
+      "MinimumItemCount": 10,
+      "DiscountAmount": 5
+    }
+  ],
+  "RateCampaigns": [
+    {
+      "Id": 8,
+      "CategoryId": 22,
+      "MinimumItemCount": 2,
+      "DiscountAmount": 20
+    }
+  ]
+}
